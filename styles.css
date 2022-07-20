@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background: url(Images/pexels-jonathan-petersson-399187.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-family: "Rubik", sans-serif;
+  color: white;
+  padding-top: 3.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: "Rubik", sans-serif;
+  color: white;
+  padding-top: 3.5rem;
+  align-items: center;
+  display: block;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+ul,
+.sectionTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+li {
+  list-style: none;
+  border: 1px dotted white;
+  border-radius: 50px;
+  padding: 1.5rem;
+  background-color: black;
+  color: white;
+}
+
+#RobertoCarlos {
+  background: url(Images/04E037370000044D-5081637-image-m-45_1510671077280.jpg);
+}
+
+#Lahm {
+  background: url(Images/6071.jpg);
+}
+
+#Gerard {
+  background: url(Images/1975200-41499487-2560-1440.jpg);
+}
+
+#Pirlo {
+  background: url(Images/andrea-pirlo-italy-costa-rica_3163056.jpg);
+}
+
+#Kaka {
+  background: url(Images/GettyImages-481333713.jpg);
+  max-width: 100%;
+}
+
+#Terry {
+  background: url(Images/john-terry_1564470425.jpg);
+}
+
+#Rivaldo {
+  background: url(Images/rivaldo-4.jpg);
+}
+
+#Zidane {
+  background: url(Images/Zinedine-Zidane.jpg);
+}
+
+#Ronaldinho {
+  background: url(Images/Ronaldinho-Barcelona-752x428.jpg);
+}
+
+@media screen and (max-width: 43rem) {
+  ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  body {
+    padding: 2.5rem;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+}
